@@ -11,7 +11,7 @@ configurable Color color = ?;
 
 configurable Color sub = BLUE;
 
-configurable string foo = "This is a color enum";
+configurable string foo = "This is a string";
 
 public function main() {
     io:println("Selected color: " + color.toString());
