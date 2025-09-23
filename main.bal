@@ -29,6 +29,8 @@ configurable string floor = ?;
 
 configurable string background = ?;
 
+configurable int total = ?
+
 public function main() {
     io:println("Selected color: " + color.toString());
     io:println("Sub color: " + sub.toString());
