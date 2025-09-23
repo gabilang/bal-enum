@@ -17,7 +17,7 @@ configurable string preference = ?;
 
 configurable string bar = ?;
 
-configurable string baz = ?;
+configurable string background = ?;
 
 public function main() {
     io:println("Selected color: " + color.toString());
