@@ -21,6 +21,8 @@ configurable string baz = ?;
 
 configurable string letter = ?;
 
+configurable string board = ?;
+
 configurable string ceiling = ?;
 
 configurable string floor = ?;
