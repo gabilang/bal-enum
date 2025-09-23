@@ -15,6 +15,8 @@ configurable string foo = "This is a configurable str";
 
 configurable string preference = ?;
 
+configurable string bar = ?;
+
 public function main() {
     io:println("Selected color: " + color.toString());
     io:println("Sub color: " + sub.toString());
