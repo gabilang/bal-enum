@@ -21,6 +21,8 @@ configurable string baz = ?;
 
 configurable string ceiling = ?;
 
+configurable string floor = ?;
+
 configurable string background = ?;
 
 public function main() {
