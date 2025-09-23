@@ -13,6 +13,8 @@ configurable Color sub = BLUE;
 
 configurable string foo = "This is a configurable str";
 
+configurable string preference = ?;
+
 public function main() {
     io:println("Selected color: " + color.toString());
     io:println("Sub color: " + sub.toString());
